@@ -1,0 +1,2 @@
+(function(){var i,j,a;i=function(b,d){return function(){if(1>--b)return d.apply(null,arguments)}};j=function(b){return"[object Function]"===toString.call(b)};a=function(b){var d,a,f,g,e;e=[];g=0;a=function(h,c){var a;null==c&&(a=[1,h],h=a[0],c=a[1]);return e.splice(g++,0,[h,c])};d=function(){var a,c;g=0;if(0<e.length)return c=e.shift(),a=c[0],b=c[1],b(i(a,d))};f=b({async:a,sync:function(b){return a(function(a){b();return a()})}});j(f)||d();return function(){f.apply(null,arguments);return d()}};null!=
+this.window?this.saq=a:exports.saq=a}).call(this);
